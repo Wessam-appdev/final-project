@@ -1,0 +1,84 @@
+<h1>
+  Upload a new episode
+</h1>
+
+
+<hr>
+
+<form action="/create_podcast" method="post" enctype="multipart/form-data">
+
+  <div class="form-group">
+    <label for="title">
+      Title
+    </label>
+
+    <input type="text" id="title" name="title" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="episode">
+      Episode
+    </label>
+
+    <input type="text" id="episode" name="episode" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="episode_description">
+      Episode description
+    </label>
+
+    <input type="text" id="episode_description" name="episode_description" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="podcast_description">
+      Podcast description
+    </label>
+
+    <input type="text" id="podcast_description" name="podcast_description" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="first_part">
+      First Part
+    </label>
+
+    <input type="file" id="first_part" name="first_part" class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="second_part">
+      Second Part
+    </label>
+
+    <input type="file" id="second_part" name="second_part" class="form-control">
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="cover">
+      Cover
+    </label>
+
+    <input type="text" id="cover" name="cover" class="form-control">
+  </div>
+
+  <button class="btn btn-block btn-outline-secondary">
+    Create podcast
+  </button>
+</form>
+
+<hr>
+
+<a href="/podcasts">
+  Go back
+</a>
+
+
+
+
+
+
+
